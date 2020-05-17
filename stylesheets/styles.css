@@ -90,11 +90,12 @@
 }
 .footer {
   padding: 5% 0;
-  max-width: 90%;
+  max-width: 100%;
   position: relative;
   margin: auto;
-  min-height: 100vh;
+  min-height: 40vh;
   clear: both;
+  overflow: hidden;
 }
 .footerText {
   margin: 20% auto;
@@ -198,8 +199,8 @@ p.copyrightText {
 	-moz-transform: scale(0.2);
 	transform: scale(0.2);
 	position: absolute;
-	bottom: 20px;
-	z-index: 0;
+    z-index: 0;
+    top: 80px;
 }
 
 .x2 {
@@ -224,7 +225,15 @@ p.copyrightText {
 	-moz-transform: scale(0.2);
 	transform: scale(0.2);
 	position: absolute;
-	bottom: -70px;
+	bottom: 0;
+}
+@media screen (min-width: 768px) {
+    .x1 {
+        bottom: -100px;
+    }
+    .x3 {
+        bottom: -70px;
+    }
 }
 /* OBJECTS */
 
