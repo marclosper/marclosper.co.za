@@ -88,15 +88,6 @@
   text-align: center;
   margin: auto;
 }
-.footer {
-  padding: 5% 0;
-  max-width: 100%;
-  position: relative;
-  margin: auto;
-  min-height: 40vh;
-  clear: both;
-  overflow: hidden;
-}
 .footerText {
   margin: 20% auto;
   padding: 10%;
@@ -136,9 +127,6 @@ p.copyrightText {
   .aboutMe .btn {
     text-align: center;
     margin: 1em auto;
-  }
-  .footer {
-    min-height: unset !important;
   }
   .footerText {
     width: 80%;
