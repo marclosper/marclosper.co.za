@@ -88,6 +88,7 @@
   text-align: center;
   margin: auto;
 }
+.footer {position: relative;}
 .footerText {
   margin: 20% auto;
   padding: 10%;
